@@ -39,9 +39,10 @@ public class Player : MonoBehaviour
         SetPower();
         if(Input.GetMouseButtonDown (0) )
         {
-            SetPower(true);
+            //////SetPower(true);
 
-        }if(Input.GetMouseButtonUp (0) )
+        }
+        if (Input.GetMouseButtonUp (0) )
         {
             SetPower(false);
         }
